@@ -1,5 +1,5 @@
 <?php
-
+    //Change to my settings
     // Form the DB Connection string
     $port = '3306';
     $dbname = 'uncobacs_subscribers';
