@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Project #8 - To Do List</title>
+        <title>Project #9 - To Do List</title>
         
         <?php
             include '../templates/header.php';
@@ -10,7 +10,7 @@
     </head>
     
     <body>
-        <h1>Project #8 - To Do List</h1>
+        <h1>Project #9 - To Do List</h1>
 
         <h2>Project Description</h2>
         <p>Build an application that manages a list of subscribers.</p>
