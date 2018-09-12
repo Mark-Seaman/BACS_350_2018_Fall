@@ -14,5 +14,5 @@
 
     // Run your page through the validator
     echo '<h3>Valid HTML</h3>
-        <p><a href="http://validator.w3.org">HTML Validator</a></p>'
+        <p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fdanielherrera.space%2Fproject%2F09%2Findex.php">HTML Validator</a></p>'
 ?>
