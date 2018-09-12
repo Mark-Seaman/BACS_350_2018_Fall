@@ -1,6 +1,6 @@
 <?php
 
-            include '../bacs_350/header.php';
+            include 'header.php';
 
             // Decide on the domain and page to test
             $domain = "https://ghaschbacs350.com";
@@ -16,7 +16,7 @@
 
             // Run your page through the validator
             echo '<h3>Valid HTML</h3>
-                <p><a href="http://validator.w3.org">HTML Validator</a></p>'
+                <p><a href="http://validator.w3.org">HTML Validator</a></p>';
 
             include '../footer.php';
         ?>

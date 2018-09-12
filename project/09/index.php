@@ -40,11 +40,14 @@
             
             <hr>
             
-            <li><a href="../bacs_350/project/09/test.php">Test php</a></li>
+            <li><a href="test.php">Test php</a></li>
             
             <hr>
             
-            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fghaschbacs350.com%2Fbacs_350%2Fproject%2F09%2Findex.php">HTML Validator</a>
+            <?php
+            
+                require 'test.php';
+            ?>
             
             
         </main>
