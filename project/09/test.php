@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <?php
+<?php
 
-            include '../header.php';
+            include '../bacs_350/header.php';
 
             // Decide on the domain and page to test
-            $domain = "https://unco-bacs.org";
-            $page = "$domain/bacs_350/demo/index.php";
+            $domain = "https://ghaschbacs350.com";
+            $page = "https://ghaschbacs350.com/bacs_350/project/09/index.php";
 
             // Create a link for the page
             echo "<h2>Test Page for </h2>
@@ -27,6 +24,3 @@
         <hr>
 
         <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Funco-bacs.org%2Fbacs_350%2Fdemo%2Findex.php">HTML Validator</a>
-        
-    </head>
-</html>

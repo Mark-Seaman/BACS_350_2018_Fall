@@ -3,11 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>UNC BACS 350 - Demo Server</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../style.css">
     </head>
     <body>
         <header>
-            <img src="Bear3.png" alt="Bear Logo">
+            <img src="../Bear3.png" alt="Bear Logo">
             <h1>BACS 350 - Demo Server</h1>
         </header>
         <main>
@@ -15,7 +15,7 @@
             <h2> Website Projects</h2>
             <ul>
                 <li>
-                    <a href="../project/08/index.php">Exercise #8</a>
+                    <a href="../bacs_350/project/08/index.php">Exercise #8</a>
                 </li>
             </ul>
 
@@ -40,15 +40,11 @@
             
             <hr>
             
-            <li><a href="../project/09/test.php">Test for index.php</a></li>
+            <li><a href="../bacs_350/project/09/test.php">Test php</a></li>
             
             <hr>
             
-            <?php
-                $validator = 'https://validator.w3.org/nu/';
-                echo "validator = $validator";
-            ?>
-            
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fghaschbacs350.com%2Fbacs_350%2Fproject%2F09%2Findex.php">HTML Validator</a>
             
             
         </main>
