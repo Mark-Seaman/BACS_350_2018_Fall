@@ -12,10 +12,10 @@
         </header>
         <main>
 
-            <h2> Website Projects</h2>
+            <h2> Project 10</h2>
             <ul>
                 <li>
-                    <a href="project/09/index.php">Exercise #09</a>
+                    <a href="../09/index.php">Exercise #09</a>
                 </li>
 
             </ul>
