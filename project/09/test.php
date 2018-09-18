@@ -1,26 +1,38 @@
-<?php
 
-            include 'header.php';
+<!DOCTYPE html>
+<html lang="en">
+    <head>
 
-            // Decide on the domain and page to test
-            $domain = "https://ghaschbacs350.com";
-            $page = "https://ghaschbacs350.com/bacs_350/project/09/index.php";
+        <meta charset="UTF-8">
+        <title>
+            Thank You for Registering
+        </title>
+        <link rel="stylesheet" href="style.css">
 
-            // Create a link for the page
-            echo "<h2>Test Page for </h2>
-                <p>Start simple but start now.</p>
-                <p>Make sure that the page exists and has valid HTML.";
+    </head>
+    <body>
 
-            echo '<h3>Page Exists</h3>
-                <p><a href="' . $page . '">' . $page . '</a></p>';
+        <header>
+            <h1>
+                <img src="Bear3.png" alt="Bear Logo"/>
 
-            // Run your page through the validator
-            echo '<h3>Valid HTML</h3>
-                <p><a href="http://validator.w3.org">HTML Validator</a></p>';
+                Thank You for Registering            </h1>
+        </header>
+        <main>
+            <a href="/bacs_350/index.html">Home</a>
+            <h2>DB Connection</h2>
+            <p>Connect String:  mysql:host=localhost:3306;
+            dbname=ghaschba_subscribers, ghaschba_350, Winogrd123!!</p>
+            <p><b>Successful Connection</b></p>
+            <p><b>Insert successful</b></p>
+            <h2>Welcome aboard, </h2>
+            <h3>Your Profile</h3>
+            <p><label>Name:</label><b></b></p>
+            <p><label>Email:</label><b></b></p>
+            
+    
 
-            include '../footer.php';
-        ?>
+        </main>
+    </body>
+</html>
 
-        <hr>
-
-        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Funco-bacs.org%2Fbacs_350%2Fdemo%2Findex.php">HTML Validator for bacs 350 demo</a>
