@@ -1,0 +1,109 @@
+/* ----------------------------------------------- */
+/* HTML Elements */
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    color: pink;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+body {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+h1 {
+}
+
+h2 {
+    text-align: left;
+    color: pink;
+}
+
+h3 {
+    text-align: left;
+    color: blue;
+}
+
+h4 {
+    color: pink;
+}
+
+h5 {
+    color: blue;
+    border-top: dashed blue 1px;
+    padding-top: 1em
+}
+
+hr {
+    border: solid 2px pink;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+main {
+    /*padding: 1rem;*/
+}
+
+td {
+    padding: 10px;
+}
+
+p {
+    text-align: left;
+    margin-top: 1em;
+}
+
+pre {
+	text-align: left;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 5px grey;
+}
+
+/* ----------------------------------------------- */
+/* Classes */
+
+.button {
+    float: right;
+}
+
+.page {
+    box-shadow: 2px 2px 5px grey;
+    /*background-color: #fffff8;*/
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 40px;
+}
+
+.sourceCode {
+    margin: 0px;
+}
+
+/* ----------------------------------------------- */
+/* IDs */
+
+#main-section {
+    background-color: light blue;
+    border: solid 1px black;
+    padding: 30px;
+}
+
+#page-header {
+    padding: 100px;
+    background-color: pink;
+    color: white;
+}

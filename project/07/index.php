@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Lesson 06</title>
+		<title>Lesson 07</title>
 		<link rel="stylesheet" href="review.css">
 	</head>
 	
@@ -10,14 +10,14 @@
     
 		<header id="page-header">
 			<img src="http://bacs200.unco.edu/BACS_200/img/Bear.png" alt="Bear" width="150">
-			<h1>Lesson 06</h1>
+			<h1>Lesson 07 (Implemented delete.php)</h1>
 		</header>
         
 		<main>
             <aside>
                 <h2>Parts of this Page</h2>
                 <ul>
-                    <li>BACS 350 PROJECT 06</li>
+                    <li>BACS 350 PROJECT 07</li>
                     <li><a href="../01">My homepage!</a></li>
 
                     
@@ -78,6 +78,24 @@ $statement->closeCursor();
 
 
 ?>
+
+            
+<?php
+    // Connect to the database
+    require_once 'db.php';
+    echo '<h2>Delete Test User</h2>';
+    // Modify database row
+    $query = "DELETE from subscribers WHERE id = 1";
+    $statement = $db->prepare($query);
+    $statement->execute();
+    $statement->closeCursor();
+    // Display subscriber records
+    require 'select.php';
+?>
+            
+
+      
+        
         </main>
         <footer>
         <hr>

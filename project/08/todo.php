@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Project #8 - To Do List</title>
+		<link rel="stylesheet" type="text/css" href="review.css">
     </head>
     <body>
         <h1>Project #8 - To Do List</h1>
@@ -107,4 +108,5 @@
 
         </pre>
     </body>
+	
 </html>

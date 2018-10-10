@@ -1,14 +1,15 @@
 <?php
 
     // Form the DB Connection string
-    $port = '3306';
-    $dbname = 'uncobacs_subscribers';
-    $db_connect = "mysql:host=localhost:$port;dbname=$dbname";
-    $username = 'uncobacs_350';
-    $password = 'BACS_350';
+// Form the DB Connection string
+$port = '3306';
+$dbname = 'jessigc3_subscribers';
+$db_connect = "mysql:host=localhost:$port;dbname=$dbname";
+$username = 'jessigc3_bacs350';
+$password = 'Busterbrown22!';
 
-    echo "<h2>DB Connection</h2>" .
-        "<p>Connect String:  $db_connect, $username, $password</p>";
+echo "<h1>DB Connection</h1>" .
+"<p>Connect String: $db_connect, $username, $password</p>";
 
 
     // Open the database or die

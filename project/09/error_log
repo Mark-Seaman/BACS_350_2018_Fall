@@ -1,0 +1,4 @@
+[12-Sep-2018 21:17:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home4/tyzwprmy/public_html/project/10-0/test.php on line 19
+[12-Sep-2018 21:45:39 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home4/tyzwprmy/public_html/project/10-2/test.php on line 30
+[12-Sep-2018 21:45:41 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home4/tyzwprmy/public_html/project/10-2/test.php on line 30
+[12-Sep-2018 21:46:00 UTC] PHP Parse error:  syntax error, unexpected '>' in /home4/tyzwprmy/public_html/project/10-2/test.php on line 29
