@@ -1,19 +1,50 @@
 <?php
 
+
+/*--
+-- Create table notes: body, date
+--
+
+CREATE TABLE notes (
+  id int(3) NOT NULL AUTO_INCREMENT,
+  title   varchar(200)  NOT NULL,
+  body varchar(1000)  NOT NULL,  
+  date varchar(100) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+--
+-- Dumping data for table `notes`
+--
+
+*/
+
     // Connect to the remote database
     function remote_connect() {
     
     //$host = 'localhost';
-    $port = '3306';
-    $dbname = 'jessigc3_BearNotes';
-    $username = 'jessigc3_bacs350';
-    $password = 'Busterbrown22!';
-    $db_connect = "mysql:host=localhost:$port;dbname=$dbname";
-        
-        
+        $port = '3306';
+        $dbname = 'jessigc3_BearNotes';
+        $username = 'jessigc3_bacs350';
+        $password = 'Busterbrown22!';
+        $db_connect = "mysql:host=localhost:$port;dbname=$dbname";
         return db_connect($db_connect, $username, $password);
-
     }
+   
+
+// Local Host Database settings
+   
+
+    function local_connect() {
+
+        $host = 'localhost';
+        $dbname = 'notes';
+        $username = 'root';
+        $password = '';
+        $db_connect = "mysql:host=$host;dbname=$dbname";
+        return db_connect($db_connect, $username, $password);
+  }
+
 
     // Open the database or die
     function db_connect($db_connect, $username, $password) {

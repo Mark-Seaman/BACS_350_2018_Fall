@@ -8,7 +8,7 @@
             
                 <form action="insert.php" method="post">
                     <p><label>Title:</label> &nbsp; <input type="text" name="title"></p>
-                    <p><label>Date:</label> &nbsp; <input type="text" name="date"></p>
+
                     <p><label>Body:</label> &nbsp; <input type="text" name="body"></p>
                     <p><input type="submit" value="Submit"/></p>
                 </form>
